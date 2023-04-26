@@ -51,22 +51,3 @@ export function validateLogin(email, password) {
   }
   return '';
 }
-
-export function validatePost(title, time, ingredients, prepare, difficult) {
-  if (title === '') {
-    return 'Preencha o título da receita!';
-  }
-  if (time === '') {
-    return 'Preencha o tempo de preparo da receita!';
-  }
-  if (ingredients === '') {
-    return 'Insira os ingredientes necessários!';
-  }
-  if (prepare === '') {
-    return 'Insira o modo de preparo para a receita!';
-  }
-  if (difficult === 'difficult') {
-    return 'Insira um nível de dificuldade válido!';
-  }
-  return '';
-}
