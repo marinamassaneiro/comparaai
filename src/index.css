@@ -1,0 +1,27 @@
+@import './pages/login/login.css';
+@import './pages/timeline/timeline.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-family: 'KoHo', sans-serif;
+}
+
+body {
+  background-color: #E6F1F3;
+}
+
+.logo {
+  height: 15vh;
+  width: auto;
+  border-radius: 50%;
+}
+
+.eu-chef {
+  margin-top: 1vh;
+  color: var(--color-white);
+  font-family: 'League Script', cursive;
+  font-size: 3.7rem;
+}
