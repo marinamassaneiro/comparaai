@@ -10,6 +10,7 @@ export const timeline = async () => {
   const container = document.createElement('div');
   container.setAttribute('id', 'container-timeline');
 
+  //código html
   container.innerHTML = `
     <section id="header-timeline">
         <figure>
@@ -76,10 +77,12 @@ export const timeline = async () => {
     </footer>
     `;
 
+  //atribuindo os botões a variáveis
   const btnVeiculo = container.querySelector('#btn-veiculo');
   const btnLogout = container.querySelector('#btn-logout');
   const btnHome = container.querySelector('#btn-home');
 
+  //cria o objeto para guardar na coleção do banco de dados do Firestore
   btnVeiculo.addEventListener('click', (event) => {
     event.preventDefault();
     const veiculo = {
@@ -103,11 +106,13 @@ export const timeline = async () => {
     });
   });
 
+  //botão que navega para o topo da página
   btnHome.addEventListener('click', (event) => {
     event.preventDefault();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
+  //botão logout
   btnLogout.addEventListener('click', () => {
     logout()
       .then(() => {
