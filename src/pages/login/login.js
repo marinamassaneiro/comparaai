@@ -26,14 +26,14 @@ export const login = () => {
       <input id="btn-login" type="submit" value="Entrar" />
     </form>
     <button id="btn-google">
-      <img id="img-google" src="assets/btn_google_signin_light_normal_web@2x.png" alt="botão de login com conta google">
-    </button>
+      <img id="img-google" src="assets/google-botao.png" alt="botão de login com conta google">
+      </button>
     <p class="msg-error"></p>
     <button id="btn-register">Efetuar Cadastro</button>
   `;
 
   container.innerHTML = template;
-  
+
   //guarda valores dos inputs em variáveis
   const inputEmail = container.querySelector('#email');
   const inputPassword = container.querySelector('#password');

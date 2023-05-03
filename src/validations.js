@@ -24,13 +24,13 @@ export function validateRegister(name, email, password, passwordRepeat) {
   const emailValid = regexEmail.test(email);
 
   if (name === '') {
-    return 'Preencha o campo de nome!';
+    return 'Preencha o campo usuário!';
   }
   if (email === '') {
-    return 'Preencha o campo de e-mail!';
+    return 'Preencha o campo e-mail!';
   }
   if (password === '') {
-    return 'Digite sua senha!';
+    return 'Digite a sua senha!';
   }
   if (password !== passwordRepeat) {
     return 'As duas senhas não são iguais';
@@ -47,10 +47,10 @@ export function validateRegister(name, email, password, passwordRepeat) {
 //erros que criamos para login
 export function validateLogin(email, password) {
   if (email === '') {
-    return 'Preencha o campo de e-mail!';
+    return 'Preencha o campo usuário!';
   }
   if (password === '') {
-    return 'Preencha o campo de senha!';
+    return 'Preencha o campo senha!';
   }
   return '';
 }
