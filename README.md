@@ -43,7 +43,7 @@ Este projeto tem como principal objetivo apresentar uma aplicação que visa aux
 ## **2. Autores Envolvidos**
 ---
 
-Projeto Integrador IV – Fase 2 apresentado ao Centro Universitário Senac, como exigência parcial para obtenção de aprovação na disciplina Projeto Integrado, do curso de Análise e Desenvolvimento de Sistemas, executado pela equipe: [André Costa](https://github.com/andremagrego) , [Carlos Plácio](https://github.com/carlosplacido) , [Isabella Nascimento](https://github.com/ZabellaCN) , [Marcelo Macelino](https://github.com/MarceloFMarcelino) , [Marina Massaneiro](https://github.com/marinamassaneiro) , [Mayara Gomes](https://github.com/Mayara19)
+Projeto Integrador IV – Fase 2 apresentado ao Centro Universitário Senac, como exigência parcial para obtenção de aprovação na disciplina Projeto Integrado, do curso de Análise e Desenvolvimento de Sistemas, executado pela equipe: [André Costa](https://github.com/andremagrego) , [Carlos Plácido](https://github.com/carlosplacido) , [Isabella Nascimento](https://github.com/ZabellaCN) , [Marcelo Marcelino](https://github.com/MarceloFMarcelino) , [Marina Massaneiro](https://github.com/marinamassaneiro) , [Mayara Gomes](https://github.com/Mayara19)
 
 ## **3. ComparaAí**
 ---
