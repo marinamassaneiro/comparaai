@@ -17,6 +17,7 @@ export const login = () => {
   container.setAttribute('class', 'container');
   container.setAttribute('id', 'container-login');
 
+  //html da página
   const template = `
     <img class="logo" src="assets/logo.png">
     <form id="form-login">
@@ -25,14 +26,15 @@ export const login = () => {
       <input id="btn-login" type="submit" value="Entrar" />
     </form>
     <button id="btn-google">
-      <img id="img-google" src="assets/btn_google_signin_light_normal_web@2x.png" alt="botão de login com conta google">
-    </button>
+      <img id="img-google" src="assets/google-botao.png" alt="botão de login com conta google">
+      </button>
     <p class="msg-error"></p>
     <button id="btn-register">Efetuar Cadastro</button>
   `;
 
   container.innerHTML = template;
 
+  //guarda valores dos inputs em variáveis
   const inputEmail = container.querySelector('#email');
   const inputPassword = container.querySelector('#password');
   const btnLogin = container.querySelector('#btn-login');
@@ -40,11 +42,13 @@ export const login = () => {
   const btnRegister = container.querySelector('#btn-register');
   const errorMessage = container.querySelector('.msg-error');
 
+  //leva para cadastro
   btnRegister.addEventListener('click', (event) => {
     event.preventDefault();
     redirect('#register');
   });
 
+  //login com email e senha
   btnLogin.addEventListener('click', (event) => {
     event.preventDefault();
     const validation = validateLogin(inputEmail.value, inputPassword.value);
@@ -63,6 +67,7 @@ export const login = () => {
     }
   });
 
+  //login/cadastro com google
   btnGoogle.addEventListener('click', (event) => {
     event.preventDefault();
     signinGoogle().then(() => {

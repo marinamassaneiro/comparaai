@@ -6,6 +6,7 @@ import { statusUser } from './lib/auth.js';
 
 const container = document.querySelector('#root');
 
+//rotas para navegação dinâmica numa página html só
 const routes = async () => {
   container.innerHTML = '';
   switch (window.location.hash) {

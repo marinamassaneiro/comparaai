@@ -16,6 +16,7 @@ export const register = () => {
   container.setAttribute('class', 'container');
   container.setAttribute('id', 'container-register');
 
+  //código html
   const template = `
         <img class="logo" src="assets/logo.png">
         <p>Efetuar Cadastro no Sistema </p>
@@ -34,6 +35,7 @@ export const register = () => {
 
   container.innerHTML = template;
 
+  //guarda valores dos inputs em variáveis
   const name = container.querySelector('#name');
   const email = container.querySelector('#email');
   // const password = container.querySelector('#password');
@@ -42,6 +44,7 @@ export const register = () => {
   const errorMessage = container.querySelector('.msg-error');
   const btnBack = container.querySelector('#btn-back');
 
+  //cadastro com email e senha e erros 
   btnRegister.addEventListener('click', (event) => {
     event.preventDefault();
     const validation = validateRegister(
@@ -67,6 +70,7 @@ export const register = () => {
     }
   });
 
+  //botão para voltar pro login
   btnBack.addEventListener('click', (event) => {
     event.preventDefault();
        redirect('#login');

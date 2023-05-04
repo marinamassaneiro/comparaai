@@ -1,3 +1,5 @@
+//importação das funções do próprio Firebase para usar no site
+
 export {
   initializeApp,
 } from 'https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js';//eslint-disable-line

@@ -1,3 +1,4 @@
+//erros que já vem do Firebase
 export function errorsFirebase(error) {
   switch (error) {
     case 'auth/invalid-email':
@@ -17,18 +18,19 @@ export function errorsFirebase(error) {
   }
 }
 
+//erros que criamos para cadastro
 export function validateRegister(name, email, password, passwordRepeat) {
   const regexEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z]+(?:\.[a-zA-Z]+)*$/;
   const emailValid = regexEmail.test(email);
 
   if (name === '') {
-    return 'Preencha o campo de nome!';
+    return 'Preencha o campo usuário!';
   }
   if (email === '') {
-    return 'Preencha o campo de e-mail!';
+    return 'Preencha o campo e-mail!';
   }
   if (password === '') {
-    return 'Digite sua senha!';
+    return 'Digite a sua senha!';
   }
   if (password !== passwordRepeat) {
     return 'As duas senhas não são iguais';
@@ -42,12 +44,13 @@ export function validateRegister(name, email, password, passwordRepeat) {
   return '';
 }
 
+//erros que criamos para login
 export function validateLogin(email, password) {
   if (email === '') {
-    return 'Preencha o campo de e-mail!';
+    return 'Preencha o campo usuário!';
   }
   if (password === '') {
-    return 'Preencha o campo de senha!';
+    return 'Preencha o campo senha!';
   }
   return '';
 }

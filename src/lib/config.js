@@ -1,3 +1,5 @@
+//configuração do código com o firebase
+
 import {
   initializeApp,
   getFirestore,
