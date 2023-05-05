@@ -17,14 +17,13 @@
 
   <br>
 
-  **Status do Projeto:** _Em andamento_ 
-    
- <!-- O **resultado final** pode ser visitado [aqui](https://)!! -->
+  **Status do Projeto:** _Concluído_ 
+        
+***O projeto pode ser acessado através do link: [Acesse aqui](https://github.com/marinamassaneiro/comparaai/blob/main/src/assets/projetointegrador.pdf)***
+ 
 </div>
 
 ## 📋**Indice**
-- [Manter seu carro ou alugar um? ComparaAí! O app que fará diferença no seu bolso!](#manter-seu-carro-ou-alugar-um-comparaaí-o-app-que-fará-diferençanoseubolso)
-  - [📋**Indice**](#indice)
   - [**1. Apresentação**](#1-apresentação)
   - [**2. Autores Envolvidos**](#2-autores-envolvidos)
   - [**3. ComparaAí**](#3-comparaaí)
@@ -32,8 +31,7 @@
   - [**4. Protótipo de Baixa Fidelidade**](#4-protótipo-de-baixa-fidelidade)
   - [**5. Protótipo de Alta Fidelidade e Considerações da Pesquisa UX**](#5-protótipo-de-alta-fidelidade-e-considerações-da-pesquisa-ux)
   - [**6. Histórias de Usuário**](#6-histórias-de-usuário)
-    - [**6.1 História de Usuário 1**](#61-história-de-usuário-1)
-  - [🎁**7. Agradecimentos**](#7-agradecimentos)
+  - [🎁**7. Considerações Finais e Agradecimentos**](#7-considerações-finais-e-agradecimentos)
  
 ***
 
@@ -45,7 +43,7 @@ Este projeto tem como principal objetivo apresentar uma aplicação que visa aux
 ## **2. Autores Envolvidos**
 ---
 
-Projeto Integrador IV – Fase 2 apresentado ao Centro Universitário Senac, como exigência parcial para obtenção de aprovação na disciplina Projeto Integrado, do curso de Análise e Desenvolvimento de Sistemas, executado pela equipe: [André Costa](https://github.com/andremagrego) , [Marina Massaneiro](https://github.com/marinamassaneiro) , [Marcelo Macelino](https://github.com/MarceloFMarcelino) , [Mayara Gomes](https://github.com/Mayara19)
+Projeto Integrador IV – Fase 2 apresentado ao Centro Universitário Senac, como exigência parcial para obtenção de aprovação na disciplina Projeto Integrado, do curso de Análise e Desenvolvimento de Sistemas, executado pela equipe: [André Costa](https://github.com/andremagrego) , [Carlos Plácido](https://github.com/carlosplacido) , [Isabella Nascimento](https://github.com/ZabellaCN) , [Marcelo Marcelino](https://github.com/MarceloFMarcelino) , [Marina Massaneiro](https://github.com/marinamassaneiro) , [Mayara Gomes](https://github.com/Mayara19)
 
 ## **3. ComparaAí**
 ---
@@ -75,25 +73,44 @@ A aplicação não busca considerar em seus cálculos as despesas variáveis com
 ## **4. Protótipo de Baixa Fidelidade**
 ---
 
-<img src="https://github.com/marinamassaneiro/comparaai/blob/main/src/assets/mobile-baixaql.png" alt="Protótipo de Baixa Fidelidade" style="height: 300px;"/>
+<img src="https://github.com/marinamassaneiro/comparaai/blob/main/src/assets/mobile-baixaql.jpg" alt="Protótipo de Baixa Fidelidade" style="height: 300px;"/>
 
 
 ## **5. Protótipo de Alta Fidelidade e Considerações da Pesquisa UX**
 ---
+Na aplicação o usuário deverá inserir despesas fixas e estimadas de seu automóvel.
 
-<img src="https://github.com/marinamassaneiro/comparaai/blob/main/src/assets/comparaai-mobile.png" alt="Protótipo de Alta Fidelidade" style="height: 300px;"/>
+O produto não busca considerar em seus cálculos as despesas variáveis com outros meios de transporte como ônibus, metrô, táxi e aplicativos de carona (Uber, 99, Cabify, dentre outros), ou a despesa prevista para a compra de um automóvel para os clientes que não possuem carro próprio, o público-alvo são pessoas que já têm à sua disposição um carro de passeio, mas não usufruem dessa comodidade.
 
-<img src="https://github.com/marinamassaneiro/comparaai/blob/main/src/assets/comparaai-mobile2.png" alt="Protótipo de Alta Fidelidade" style="height: 300px;"/>
+A partir desses inputs de dados, o aplicativo fará a comparação com os orçamentos previstos nos serviços de aluguel de carros disponíveis. 
 
-<img src="https://github.com/marinamassaneiro/comparaai/blob/main/src/assets/comparaai-mobile3.png" alt="Protótipo de Alta Fidelidade" style="height: 300px;"/>
+<img src="https://github.com/marinamassaneiro/comparaai/blob/main/src/assets/comparaai-mobile.jpg" alt="Protótipo de Alta Fidelidade" style="height: 300px;"/>
+
+<img src="https://github.com/marinamassaneiro/comparaai/blob/main/src/assets/comparaai-mobile2.jpg" alt="Protótipo de Alta Fidelidade" style="height: 300px;"/>
+
+<img src="https://github.com/marinamassaneiro/comparaai/blob/main/src/assets/comparaai-mobile3.jpg" alt="Protótipo de Alta Fidelidade" style="height: 300px;"/>
 
 ## **6. Histórias de Usuário**
 ---
 
+Para analisar melhor o público-alvo elencado para esse produto, foram descritas algumas personas para um melhor direcionamento no mercado:
 
-### **6.1 História de Usuário 1**
+- João: “Gostaria de saber o quanto eu conseguiria economizar ou não com o aluguel de um carro nas minhas condições”. 
+
+- Beatriz: “Meus pais vivem reclamando dos gastos que temos com a manutenção do meu carro. Gostaria de saber se realmente valeria a pena alugar a manter o que tenho”.
+
+- Fernanda: “Procuro saber se vale a pena seguir usando aplicativos de carona ou se guardo dinheiro para alugar um carro só pra mim”.
+
+- Josué: “O problema do gasto com o carro já está me deixando com dor de cabeça, mas não tenho tempo para analisar as possibilidades nessa correria do dia a dia”.
+
+
+🎁**7. Considerações Finais e Agradecimentos**
 ---
+A proposta do trabalho foi de desenvolver uma aplicação simples e intuitiva capaz de apresentar ao usuário um relatório comparativo que o permitisse avaliar se de fato manter um carro próprio é algo vantajoso, quando analisado seus gastos com o veículo e rotina de uso atual versus um carro alugado. 
 
+O projeto foi realizado observando diversos aspectos associados ao desenvolvimento de sistemas, são eles: visão geral do produto, elicitação de requisitos, complexidade de desenvolvimento, estimativa de esforço e estudo de risco. Além desses, ao final também foi apresentado o modelo de dados, onde foram relacionadas as entidades e os respectivos atributos previstos para a solução do problema de negócio.
 
-🎁**7. Agradecimentos**
----
+Acredita-se, portanto, que a partir de todo o planejamento documentado nesse projeto, a aplicação poderá ser desenvolvida e aplicada para o público-alvo em questão.
+
+O grupo de estudantes do 4º semestre de ADS da faculdade Senac, responsável por este trabalho, foi composto por André Luiz Silva da Costa, Carlos Alberto Plácido Filho, Isabella Costa Nascimento, Marcelo Fernandes Marcelino, Marina Massaneiro Melo, e Mayara Cristina Gomes Branco. O grupo agradece todo o corpo docente pelos ensinamentos e orientações, que proporcionaram a construção desta aplicação e a integração deste grupo.
+
