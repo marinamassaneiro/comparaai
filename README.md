@@ -97,7 +97,7 @@ Para analisar melhor o público-alvo elencado para esse produto, foram descritas
 
 - João: “Gostaria de saber o quanto eu conseguiria economizar ou não com o aluguel de um carro nas minhas condições”. 
 
-- Beatriz: “Meus pais vivem reclamando dos gastos que temos com a manutenção do meu carro. Gostaria de saber se realmente valeria a pena alugar a manter o que tenho”. 
+- Beatriz: “Meus pais vivem reclamando dos gastos que temos com a manutenção do meu carro. Gostaria de saber se realmente valeria a pena alugar a manter o que tenho”.
 
 - Fernanda: “Procuro saber se vale a pena seguir usando aplicativos de carona ou se guardo dinheiro para alugar um carro só pra mim”.
 
