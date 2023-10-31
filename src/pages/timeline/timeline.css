@@ -1,51 +1,104 @@
 #header-timeline {
-  background-color: #F2D56D;
+  background-color: #000000;
   position: fixed;
   display: flex;
   align-items: center;
-  padding: 1vh 5vw;
+  padding: 2vh 5vw 16vh;
   width: 100vw;
 }
 
-#header-timeline > div > p {
-  color: #000000;
-  font-size: 1rem;
+#logo-timeline {
+  position: absolute;
+}
+
+#header-timeline>div>p {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 5vh;
 }
 
 #body-timeline {
   margin: 0 5vw;
-  padding: 20vh 5vw 10vh;
+  padding: 20vh 5vw 15vh;
 }
 
-#body-timeline > h3 {
+#body-timeline>h3 {
   padding: 1vh 1vw;
-  color: #DD4462;
+  color: #000000;
   font-size: 1.8rem;
 }
 
-#form-veiculo  {
+#form-veiculo,#form-aluguel {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 5vw;
   margin: 1vh 15vw;
 }
 
-#form-veiculo > div {
-  border: 2px solid #3F9AE0;
-  padding: 1vh 1vw;
+#form-veiculo>div,
+#form-aluguel>div {
+  border: 2px solid #EC8A01;
+  padding: 2vh 1vw;
   margin: 1vh 0;
 }
 
-#btn-veiculo {
-  border: none;
-  padding: 1.2vh 2.2vw;
-  color: #3F9AE0;
+#form-veiculo>div>p,
+#form-aluguel>div>p {
+  color: #000000;
+  font-weight: 500;
   font-size: 1.05rem;
-  font-weight: 600;
-  cursor: pointer;
+  padding-bottom: 1vh;
 }
 
-footer > nav {
+#form-veiculo>div>input,
+#form-aluguel>div>input {
+  height: 4vh;
+  border: 0.5px solid #748C9E;
+  background-color: #FDEED9;
+}
+
+#btn-favoritar,
+#btn-pdf {
+  background-color: #FDEED9;
+  border: none;
+  padding: 1.2vh 2.2vw;
+  color: #EC8A01;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 1vh 0;
+}
+
+#btn-comparar {
+  background-color: #5FA46A;
+  border: none;
+  color: #FFFFFF;
+  font-family: var(--font-koho);
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px 30px;
+  height: auto;
+  width: auto;
+  border-radius: 15px;
+  margin: 4vh 0;
+}
+
+#btn-apagar {
+  background-color: #FDEED9;
+  border: none;
+  padding: 1.2vh 2.2vw;
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 1vh 0;
+}
+
+footer>nav {
   background-color: #000000;
   position: fixed;
   width: 100vw;
@@ -53,7 +106,7 @@ footer > nav {
   left: 0;
 }
 
-footer > nav > ul {
+footer>nav>ul {
   display: flex;
   justify-content: center;
   margin: 0 10vw;

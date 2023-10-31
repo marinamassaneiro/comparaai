@@ -14,7 +14,7 @@ export const timeline = async () => {
   container.innerHTML = `
     <section id="header-timeline">
         <figure>
-          <img class="logo" src="assets/logo.png">
+          <img id="logo-timeline" class="logo" src="assets/logo2.png">
         </figure>
         <div>
           <p> Olá, ${auth.currentUser.displayName}!</p>
@@ -63,8 +63,30 @@ export const timeline = async () => {
           <p>Depreciação</p>
           <input type="number" id="depreciacao"> <label>%</label>
         </div>
-     </form>
-        <button id="btn-veiculo">Favoritar veículo</button>
+      </form>
+      <button id="btn-favoritar">Favoritar veículo</button>
+      <h3>Dados do carro a ser alugado</h3>
+      <form id="form-aluguel">
+        <div>
+          <p>Estado</p>
+          <input type="text" id="estado">
+        </div>
+        <div>
+          <p>Cidade</p>
+          <input type="text" id="cidade">
+        </div>
+        <div>
+          <p>Categoria</p>
+          <input type="text" id="categoria">
+        </div>
+        <div>
+          <p>Tempo de aluguel</p>
+          <input type="text" id="tempo">
+        </div>
+      </form>
+      <button id="btn-comparar">COMPARAR</button><br>
+      <button id="btn-pdf">Salvar em PDF</button><br>
+      <button id="btn-apagar">Apagar todos os campos</button>
     </section>
     <footer>
       <nav>
@@ -78,12 +100,12 @@ export const timeline = async () => {
     `;
 
   //atribuindo os botões a variáveis
-  const btnVeiculo = container.querySelector('#btn-veiculo');
+  const btnFavoritar = container.querySelector('#btn-favoritar');
   const btnLogout = container.querySelector('#btn-logout');
   const btnHome = container.querySelector('#btn-home');
 
   //cria o objeto para guardar na coleção do banco de dados do Firestore
-  btnVeiculo.addEventListener('click', (event) => {
+  btnFavoritar.addEventListener('click', (event) => {
     event.preventDefault();
     const veiculo = {
         IPVA: container.querySelector('#IPVA').value,

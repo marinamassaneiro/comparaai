@@ -18,7 +18,7 @@ export const register = () => {
 
   //código html
   const template = `
-        <img class="logo" src="assets/logo.png">
+        <img class="logo" src="assets/logo2.png">
         <p>Efetuar Cadastro no Sistema </p>
         <form>
           <input type="text" id="name" placeholder="Nome completo">
