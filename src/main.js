@@ -1,6 +1,8 @@
 import './lib/config.js';
 import { login } from './pages/login/login.js';
-import { timeline } from './pages/timeline/timeline.js';
+import { home } from './pages/timeline/home.js';
+import { usuario } from './pages/timeline/usuario.js';
+import { comparaai } from './pages/timeline/comparaai.js';
 import { register } from './pages/register/register.js';
 import { statusUser } from './lib/auth.js';
 
@@ -13,10 +15,28 @@ const routes = async () => {
     case '#login':
       container.appendChild(login());
       break;
-    case '#timeline':
+    case '#home':
       statusUser(async (logged) => {
         if (logged) {
-          container.appendChild(await timeline());
+          container.appendChild(await home());
+        } else {
+          container.appendChild(login());
+        }
+      });
+      break;
+    case '#usuario':
+      statusUser(async (logged) => {
+        if (logged) {
+          container.appendChild(await usuario());
+        } else {
+          container.appendChild(login());
+        }
+      });
+      break;
+    case '#comparaai':
+      statusUser(async (logged) => {
+        if (logged) {
+          container.appendChild(await comparaai());
         } else {
           container.appendChild(login());
         }

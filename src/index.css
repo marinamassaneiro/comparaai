@@ -1,5 +1,7 @@
 @import './pages/login/login.css';
-@import './pages/timeline/timeline.css';
+@import './pages/timeline/comparaai.css';
+@import './pages/timeline/home.css';
+@import './pages/timeline/usuario.css';
 
 * {
   box-sizing: border-box;

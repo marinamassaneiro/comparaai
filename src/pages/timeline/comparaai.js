@@ -6,21 +6,21 @@ import {
 import { saveVeiculo } from '../../lib/firestore.js';
 import { redirect } from '../../redirect.js';
 
-export const timeline = async () => {
+export const comparaai = async () => {
   const container = document.createElement('div');
-  container.setAttribute('id', 'container-timeline');
+  container.setAttribute('id', 'container-comparaai');
 
   //código html
   container.innerHTML = `
-    <section id="header-timeline">
+    <section id="header-comparaai">
         <figure>
-          <img id="logo-timeline" class="logo" src="assets/logo2.png">
+          <img id="logo-comparaai" class="logo" src="assets/logo2.png">
         </figure>
         <div>
           <p> Olá, ${auth.currentUser.displayName}!</p>
         </div>
     </section>  
-    <section id="body-timeline">
+    <section id="body-comparaai">
       <h3>Custos do seu veículo atual</h3>
       <form id="form-veiculo">
         <div>
@@ -130,8 +130,7 @@ export const timeline = async () => {
 
   //botão que navega para o topo da página
   btnHome.addEventListener('click', (event) => {
-    event.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    redirect('#home');
   });
 
   //botão logout

@@ -56,7 +56,7 @@ export const login = () => {
       loginUserEmail(inputEmail.value, inputPassword.value)
         .then(() => {
           container.innerHTML = '';
-          redirect('#timeline');
+          redirect('#home');
         })
         .catch((error) => {
           const errorFirebase = errorsFirebase(error.code);
