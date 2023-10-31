@@ -19,7 +19,7 @@ export const login = () => {
 
   //html da página
   const template = `
-    <img class="logo" src="assets/logo.png">
+    <img class="logo" src="assets/logo2.png">
     <form id="form-login">
       <input type="email" id="email" placeholder="Usuário">
       <input type="password" id="password" placeholder="Senha">
