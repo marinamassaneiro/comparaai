@@ -1,0 +1,120 @@
+#header-usuario {
+  background-color: #000000;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 2vh 5vw 16vh;
+  width: 100vw;
+}
+
+#logo-usuario {
+  position: absolute;
+}
+
+#header-usuario>div>p {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 5vh;
+}
+
+#body-usuario {
+  margin: 0 5vw;
+  padding: 20vh 5vw 15vh;
+}
+
+#body-usuario>h3 {
+  padding: 1vh 1vw;
+  color: #000000;
+  font-size: 1.8rem;
+}
+
+#body-usuario>h4 {
+  padding: 1vh 1vw;
+  color: #ECA801;
+  font-size: 1.2rem;
+}
+
+#body-usuario>div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5vw;
+  row-gap: 5vh;
+  margin: 1vh 15vw;
+}
+
+#body-usuario>div>p {
+  background-color: #000000;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+#body-usuario>#btn-apagar {
+  background-color: #DD4462;
+  border: none;
+  padding: 1.2vh 2.2vw;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 1vh 0;
+}
+
+#body-usuario>#btn-editar {
+  background-color: #F2D56D;
+  border: none;
+  padding: 1.2vh 2.2vw;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 1vh 0;
+}
+
+footer>nav {
+  background-color: #000000;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+}
+
+footer>nav>ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 10vw;
+  padding: 3vh 3vw;
+}
+
+#btn-home,
+#btn-logout,
+#btn-settings {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* @media screen and (min-width: 1200px) {
+  #header-usuario {
+    padding: 1vh 10vw;
+  }
+
+  #header-usuario > div {
+    padding: 1vh 27vw 1vh 0;
+  }
+
+  #header-usuario > div > p {
+    font-size: 1.25rem;
+  }
+  
+  #body-usuario {
+    margin: 0 15vw;
+    padding: 21vh 5vw 10vh;
+  }
+
+  footer > nav > ul {
+    margin: 0 30vw;
+  }
+} */

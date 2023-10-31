@@ -1,4 +1,4 @@
-#header-timeline {
+#header-comparaai {
   background-color: #000000;
   position: fixed;
   display: flex;
@@ -7,11 +7,11 @@
   width: 100vw;
 }
 
-#logo-timeline {
+#logo-comparaai {
   position: absolute;
 }
 
-#header-timeline>div>p {
+#header-comparaai>div>p {
   position: absolute;
   color: #FFFFFF;
   font-size: 1.2rem;
@@ -19,12 +19,12 @@
   margin-top: 5vh;
 }
 
-#body-timeline {
+#body-comparaai {
   margin: 0 5vw;
   padding: 20vh 5vw 15vh;
 }
 
-#body-timeline>h3 {
+#body-comparaai>h3 {
   padding: 1vh 1vw;
   color: #000000;
   font-size: 1.8rem;
@@ -121,19 +121,19 @@ footer>nav>ul {
 }
 
 /* @media screen and (min-width: 1200px) {
-  #header-timeline {
+  #header-comparaai {
     padding: 1vh 10vw;
   }
 
-  #header-timeline > div {
+  #header-comparaai > div {
     padding: 1vh 27vw 1vh 0;
   }
 
-  #header-timeline > div > p {
+  #header-comparaai > div > p {
     font-size: 1.25rem;
   }
   
-  #body-timeline {
+  #body-comparaai {
     margin: 0 15vw;
     padding: 21vh 5vw 10vh;
   }
